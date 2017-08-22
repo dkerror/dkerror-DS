@@ -1,0 +1,23 @@
+G:\Archive\Atom\HANOI\HanoiNonStack.c: In function 'TOH':
+G:\Archive\Atom\HANOI\HanoiNonStack.c:12:3: warning: implicit declaration of function 'diplay' [-Wimplicit-function-declaration]
+   diplay(&to);}
+   ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c: In function 'main':
+G:\Archive\Atom\HANOI\HanoiNonStack.c:22:10: error: incompatible type for argument 2 of 'TOH'
+    TOH(3,'A','C','B');
+          ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c:4:5: note: expected 'STACK {aka struct <anonymous>}' but argument is of type 'int'
+ int TOH(int n,STACK frm,STACK to,STACK use)
+     ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c:22:14: error: incompatible type for argument 3 of 'TOH'
+    TOH(3,'A','C','B');
+              ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c:4:5: note: expected 'STACK {aka struct <anonymous>}' but argument is of type 'int'
+ int TOH(int n,STACK frm,STACK to,STACK use)
+     ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c:22:18: error: incompatible type for argument 4 of 'TOH'
+    TOH(3,'A','C','B');
+                  ^
+G:\Archive\Atom\HANOI\HanoiNonStack.c:4:5: note: expected 'STACK {aka struct <anonymous>}' but argument is of type 'int'
+ int TOH(int n,STACK frm,STACK to,STACK use)
+     ^
